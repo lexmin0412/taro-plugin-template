@@ -9,7 +9,7 @@ export default (ctx, options) => {
     console.log(chalk.yellow('插件 '), '编译开始');
   });
 
-  ctx.onBuildStart(() => {
-    console.log(chalk.yellow('插件 '), '编译结束');
+  ctx.onBuildFinish(() => {
+    console.log(chalk.blue('插件 '), '编译结束');
   });
 }
