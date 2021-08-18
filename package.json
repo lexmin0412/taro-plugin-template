@@ -1,6 +1,6 @@
 {
   "name": "taro-plugin-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "taro 插件模版",
   "main": "index.js",
   "scripts": {
