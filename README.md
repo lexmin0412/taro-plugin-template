@@ -1,3 +1,3 @@
-# taro-plugin-check-env
+# taro-plugin-template
 
-taro插件，用于在编译前的环境变量检查。
+taro 2.x插件模版。
