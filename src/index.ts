@@ -6,7 +6,8 @@ export default (ctx, options) => {
   } = ctx
 
   ctx.onBuildStart(() => {
-    console.log(chalk.yellow('插件 '), '编译开始');
+		console.log(chalk.yellow('插件 '), '编译开始');
+		console.log('options:', options);
   });
 
   ctx.onBuildFinish(() => {
